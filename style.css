@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Comments */
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20;
+}
+a:hover{  /* to make effect when the mouse on the name */
+    text-decoration: underline;
+    color: red;
+}
+#wrap{
+
+   margin: 0 auto;
+   text-align: center;
+}
+
+ul {
+    padding-top: 2px;
+    float: left;
+    color: white;
+}
+li {
+    display: inline-block;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#nheader{
+    background-image: url('images/joker.jpg');
+    background-position: bottom;
+    padding: 80px;
+    height: 250px;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: purple;
+    font-size: 40px;
+}
+
+img{
+    /*border: solid 2px white;*/ 
+    border: dashed 2px white;
+    /*border: dotted 4px white;*/
+}
+
+#npara{
+    background-image: url('images/somke3.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #2980b9;
+    padding: 80px;
+    height: 800px;
+}
+
+.text_para{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+.redColor{
+    color: yellow;
+}
+
+#footer{
+    background-image: url('images/smoke.jpg');
+    color: white;
+    font-size: 30px;
+    font-family: Verdana;
+    padding: 100px;
+    background-color: #4B0150;
+    /*background: url('images/joker1.jpeg') center fixed purple;*/
+}
+
